@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity convToTemp is
+	port(
+		ent : in std_logic_vector(n-1 downTo 0);
+		sal : out std_logic_vector(n-5 downTo 0)
+	);
+end convToTemp;
+
+architecture comp of convToTemp is
+	signal int1 : std_logic_vector(n+3 downTo 0);
+begin
+	int1(n+3 downTo n) <= "0000";
+	int1(n-1 downTo 0) <= ent;
+	sal <= int1 + int1 + int1 + int1 + int1 + int1 + int1 + int1 + int1 + int1;
+end comp;

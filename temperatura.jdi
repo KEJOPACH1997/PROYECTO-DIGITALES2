@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="a44edc215dcd5874189a"/>
+  </project>
+  <file_info>
+    <file device="EP4CE22F17C6" path="temperatura.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="temperatureADC:inst69" name="inst69">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME temperatureADC HAS_SOPCINFO 1 GENERATION_ID 1546985103"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

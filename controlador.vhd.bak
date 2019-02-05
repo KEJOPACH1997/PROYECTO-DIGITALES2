@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity controlador is
+	Port(
+		Resetn, clock: in std_logic;
+		Start, Monitorear, Consulta, Men5s, Up, Down, MayMax, MenMin: in std_logic;
+		
+	);

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Jan 08 17:05:31 2019
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Revision Name : temperatura
+Top-level Entity Name : temperatura
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 458 / 22,320 ( 2 % )
+    Total combinational functions : 419 / 22,320 ( 2 % )
+    Dedicated logic registers : 188 / 22,320 ( < 1 % )
+Total registers : 188
+Total pins : 45 / 154 ( 29 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
